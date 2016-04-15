@@ -1,0 +1,921 @@
+{
+	"franceinfo": 
+	{
+		"name": "franceinfo.fr",
+		"parser": 
+		[
+			{
+				"url": "http://www.franceinfo.fr/actu/monde/article/chine-un-plan-pour-fixer-l-orientation-economique-jusqu-en-2020-771847",
+				"content": "#block-system-main > div > div.article > div.text-blck",
+				"date": "#block-system-main > div > div.article > div.info > span.date",
+				"title": "#block-system-main > div > div.article > h1"
+			}
+		]
+	},
+	"macaunews": 
+	{
+		"name": "macaunews.com.mo",
+		"parser": 
+		[
+			{
+				"url": "http://www.macaunews.com.mo/content/view/3884/53/lang,english/",
+				"content": "#mn-mainbody > table:nth-child(2) > tbody > tr:nth-child(2) > td",
+				"date": "#mn-mainbody > table:nth-child(2) > tbody > tr:nth-child(1) > td",
+				"title": "#mn-mainbody > table:nth-child(1) > tbody > tr > td.contentheading"
+			}
+		]
+	},
+	"alwihdainfo": 
+	{
+		"name": "alwihdainfo.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.alwihdainfo.com/Les-valeurs-sociales-de-Chine-en-12-mots-lesquelles_a28631.html",
+				"content": "#para_1 > div.texte > div",
+				"date": "#mod_6559184 > div > div > div.col_right > div > div.auteur > div",
+				"title": "#mod_6559184 > div > div > div.col_right > div > div.titre > h1"
+			}
+		]
+	},
+	"20minutes": 
+	{
+		"name": "20minutes.fr",
+		"parser": 
+		[
+			{
+				"url": "http://www.20minutes.fr/economie/1799435-20160303-pres-6-millions-chinois-pourraient-bientot-etre-licencies",
+				"content": "#page-content > div.lt-page.in-economy.article.economy > div.lt-content.w66",
+				"date": "#page-content > div.lt-page.in-economy.article.economy > ul.content-related.index > li > ul > li:nth-child(1) > time",
+				"title": "#page-content > div.lt-page.in-economy.article.economy > h1"
+			},
+			{
+				"url": "http://www.20minutes.fr/nantes/1800579-20160306-fc-nantes-waldemar-kita-va-aider-chinois-agrandir-penis",
+				"content": "#page-content > div.lt-page.article.default > div.lt-content.w66",
+				"date": "#page-content > div.lt-page.article.default > div.lt-content.w66 > ul.content-related.index > li > ul > li:nth-child(1)",
+				"title": "#page-content > div.lt-page.article.default > h1"
+			}
+		]
+	},
+	"channelnewsasia": 
+	{
+		"name": "channelnewsasia.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.channelnewsasia.com/news/asiapacific/12-dead-in-chinese-coal/2579382.html",
+				"content": "#content > div.info-area > div > div.info-section > div.text-area > div.news_detail",
+				"date": "#content > div.info-area > div > div.info-section > div.text-area > ul > li",
+				"title": "#content > div.info-area > div > div.info-section > div.text-area > div.ttl-frame > div > h1"
+			}
+		]
+	},
+	"indiatimes": 
+	{
+		"name": "indiatimes.com",
+		"parser": 
+		[
+			{
+				"url": "http://timesofindia.indiatimes.com/india/US-pitches-for-quadrilateral-dialogue-and-bilateral-military-pacts-with-India/articleshow/51228918.cms",
+				"content": "#content > div > div > div.wrapper.clearfix.article-content-wrapper > div.main-content > div.article_content.clearfix",
+				"date": "#content > div > div > div.wrapper.clearfix.article-content-wrapper > div.main-content > section.title_section.clearfix > span.time_cptn > span",
+				"title": "#content > div > div > div.wrapper.clearfix.article-content-wrapper > div.main-content > section.title_section.clearfix > h1"
+			},
+			{
+				"url": "http://economictimes.indiatimes.com/industry/banking/finance/finance/south-african-media-conglomerate-naspers-invests-another-250-million-in-ibibo-group/articleshow/51130911.cms",
+				"content": "#pageContent > article > div.artText",
+				"date": "#pageContent > article > div.bylineFull > div.byline > span",
+				"title": "#pageContent > article > h1"
+			},
+			{
+				"url": "http://economictimes.indiatimes.com/magazines/panache/xiaomi-redmi-note-3-review-deserves-your-attention/articleshow/51319991.cms",
+				"content": "#netspidersosh > div:nth-child(12) > div.article_container > div:nth-child(1) > section > article > div.artText",
+				"date": "#netspidersosh > div:nth-child(12) > div.article_container > div:nth-child(1) > section > article > div.publish_info > div.publish_on.flt",
+				"title": "#netspidersosh > div:nth-child(12) > div.article_container > div:nth-child(1) > section > article > h1"
+			}
+		]
+	},
+	"voatibetanenglish": 
+	{
+		"name": "voatibetanenglish.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.voatibetanenglish.com/a/tibetan-schoolboy-dorje-tsering-self-immolation/3220429.html",
+				"content": "#content > div > div.body-container > div > div > div > div > div > div",
+				"date": "#content > div > div.header-container > div > div.col-publishing-details.col-xs-12.col-sm-12.col-md-2.pull-left > div > div > span > time",
+				"title": "#content > div > div.header-container > div > div.col-title.col-xs-12.col-md-10.pull-right > h1"
+			}
+		]
+	},
+	"a-league": 
+	{
+		"name": "a-league.com.au",
+		"parser": 
+		[
+			{
+				"url": "http://www.a-league.com.au/article/wealthy-guangzhou-evergrande-prepare-in-style-for-sydney-fc-acl-clash/1lrqi42uf6yyz1it9n52bv94xx",
+				"content": "body > div:nth-child(15) > div.main-content > div > div > section > div.article-wrap.default > div.body",
+				"date": "body > div:nth-child(15) > div.main-content > div > div > section > div.article-wrap.default > time",
+				"title": "body > div:nth-child(15) > div.main-content > div > div > section > div.article-wrap.default > header > h1"
+			}
+		]
+	},
+	"myrepublica": 
+	{
+		"name": "myrepublica.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.myrepublica.com/feature-article/story/38326/china-prez-may-visit-nepal-later-this-year.html",
+				"content": "#k2Container > div.itemBody",
+				"date": "#k2Container > header > ul > li.itemDate > time",
+				"title": "#k2Container > header > h1"
+			}
+		]
+	},
+	"cbsnews": 
+	{
+		"name": "cbsnews.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.cbsnews.com/news/china-300000-punished-for-corruption-in-last-year/",
+				"content": "#article-entry",
+				"date": "#article > header > div > span.time",
+				"title": "#article > header > h1"
+			}
+		]
+	},
+	"barrons": 
+	{
+		"name": "barrons.com",
+		"parser": 
+		[
+			{
+				"url": "http://blogs.barrons.com/asiastocks/2016/03/02/moodys-cut-38-china-soes-outlook-seeing-less-government-support/",
+				"content": "body > div > div:nth-child(3) > div > div > div.col6wide.colOverflowTruncated > div.article.story > div",
+				"date": "body > div > div:nth-child(3) > div > div > div.col6wide.colOverflowTruncated > div.articleHeadlineBox.headlineType-newswire > ul > li > small",
+				"title": "body > div > div:nth-child(3) > div > div > div.col6wide.colOverflowTruncated > div.articleHeadlineBox.headlineType-newswire > h1"
+			}
+		]
+	},
+	"brecorder": 
+	{
+		"name": "brecorder.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.brecorder.com/markets/equity/asia/282565-shanghai-hong-kong-stocks-end-week-with-rally.html",
+				"content": "body > div.container.t3-mainbody.feature-page > div > div > div.t3-content.content > div.joomla > article",
+				"date": "body > div.container.t3-mainbody.feature-page > div > div > div.t3-content.content > div.joomla > article > header > aside > div > div.date > span",
+				"title": "body > div.container.t3-mainbody.feature-page > div > div > div.t3-content.content > div.joomla > article > header > h1"
+			}
+		]
+	},
+	"indrastra": 
+	{
+		"name": "indrastra.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.indrastra.com/2016/03/OPINION-Chinese-Silk-Road-in-South-Southeast-Asia-002-03-2016-0007.html",
+				"content": "#post-body-5446720353030424991 > div:nth-child(2)",
+				"date": "#Blog1 > div.blog-posts.hfeed > div > div > div.post-outer > article > div.post-info > span.time-info > a > abbr",
+				"title": "#Blog1 > div.blog-posts.hfeed > div > div > div.post-outer > article > h1"
+			}
+		]
+	},
+	"nationmultimedia": 
+	{
+		"name": "nationmultimedia.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.nationmultimedia.com/breakingnews/Worst-smog-of-the-year-hits-Beijing-30280749.html",
+				"content": "#content_detail",
+				"date": "#content > div.span-16.left.mr-left-20.box-content > div:nth-child(4) > span",
+				"title": "#content > div.span-16.left.mr-left-20.box-content > h1"
+			}
+		]
+	},
+	"mb": 
+	{
+		"name": "mb.com.ph",
+		"parser": 
+		[
+			{
+				"url": "http://www.mb.com.ph/asian-stocks-mixed-after-china-cuts-growth-target/",
+				"content": "#post-396734 > div:nth-child(8)",
+				"date": "#post-396734 > div.single_postmeta > span.left",
+				"title": "#post-396734 > h1"
+			}
+		]
+	},
+	"businesstimes": 
+	{
+		"name": "businesstimes.com.sg",
+		"parser": 
+		[
+			{
+				"url": "http://www.businesstimes.com.sg/government-economy/china-warns-hong-kong-not-to-politicise-issues",
+				"content": "#node_article_full_group_content > div:nth-child(3)",
+				"date": "#node_article_full_group_content > time > span.text-date",
+				"title": "#block-system-main > div > h1"
+			}
+		]
+	},
+	"francetvinfo": 
+	{
+		"name": "francetvinfo.fr",
+		"parser": 
+		[
+			{
+				"url": "http://culturebox.francetvinfo.fr/expositions/photo/la-chine-s-eveille-au-nu-au-festival-europeen-de-photo-d-arles-235981",
+				"content": "#content > div.content-holder > div",
+				"date": "#content > span",
+				"title": "#content > h1"
+			}
+		]
+	},
+	"laprovence": 
+	{
+		"name": "laprovence.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.laprovence.com/actu/faits-divers-en-direct/3826002/il-roulait-a-173-kmh-sur-la-departementale-6.html",
+				"content": "#id_article_corps > div.p402_premium",
+				"date": "#infoPublication > span.date_article > span.dateInfo > time",
+				"title": "#divTitle"
+			}
+		]
+	},
+	"anacgabon": 
+	{
+		"name": "anacgabon.org",
+		"parser": 
+		[
+			{
+				"url": "http://anacgabon.org/algerie-chine-air-algerie-vise-guangzhou.html",
+				"content": "#post-10142 > div.entry-content",
+				"date": "#post-10142 > div.entry-meta > span.entry-date > time",
+				"title": "#post-10142 > h1"
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "",
+				"content": "",
+				"date": "",
+				"title": ""
+			}
+		]
+	},
+	"lefigaro": 
+	{
+		"name": "lefigaro.fr",
+		"parser": 
+		[
+			{
+				"url": "http://bourse.lefigaro.fr/indices-actions/actu-conseils/la-bourse-de-paris-en-legere-hausse-avant-les-chiffres-de-l-emploi-americain-5052077",
+				"content": "#block-system-main > div > div.article-wrapper.page-sections > article > div.article-content > div.article-body > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div > div",
+				"date": "#block-system-main > div > div.article-wrapper.page-sections > article > div.article-header > div.panel-pane.pane-byline > div > div > p > span:nth-child(2) > time",
+				"title": "#block-system-main > div > div.article-wrapper.page-sections > article > div.article-header > div.panels-article-pane > h1"
+			}
+		]
+	},
+	"lesechos": 
+	{
+		"name": "lesechos.fr",
+		"parser": 
+		[
+			{
+				"url": "http://investir.lesechos.fr/marches/actualites/ue-le-statut-d-economie-de-marche-de-la-chine-relie-a-l-acier-1534140.php",
+				"content": "#gauche_article > div.contenu_article > div:nth-child(4)",
+				"date": "#gauche_article > div.meta > time",
+				"title": "#titre_article > h1"
+			}
+		]
+	},
+	"lavoixdunord": 
+	{
+		"name": "lavoixdunord.fr",
+		"parser": 
+		[
+			{
+				"url": "http://www.lavoixdunord.fr/region/calais-un-groupe-chinois-candidat-pour-sauver-le-ia33b48581n3361426",
+				"content": "#main > div > div.col-01 > div.panel-pane.pane-node-content > article > div > div.entry-content",
+				"date": "#main > div > div.col-01 > div.panel-pane.pane-node-content > article > div > p.up > span.updated.dtstamp > span:nth-child(1)",
+				"title": "#main > div > div.col-01 > div.panel-pane.pane-node-content > article > div > header > h1"
+			}
+		]
+	},
+	"leparisien": 
+	{
+		"name": "leparisien.fr",
+		"parser": 
+		[
+			{
+				"url": "http://www.leparisien.fr/economie/bordeaux-le-milliardaire-chinois-jack-ma-rachete-le-chateau-de-sours-25-02-2016-5576501.php",
+				"content": "#contTexte > div",
+				"date": "#contTitre > span > time:nth-child(1)",
+				"title": "#contTitre > h1"
+			}
+		]
+	},
+	"yahoo": 
+	{
+		"name": "yahoo.com",
+		"parser": 
+		[
+			{
+				"url": "http://finance.yahoo.com/news/china-assures-us-no-devaluation-pushing-reforms-forward-061604475.html",
+				"content": "#yui_3_18_1_1_1457497529476_396",
+				"date": "#yui_3_18_1_1_1457497529476_2244",
+				"title": "#yui_3_18_1_1_1457497529476_2175"
+			}
+		]
+	},
+	"go": 
+	{
+		"name": "go.com",
+		"parser": 
+		[
+			{
+				"url": "http://abcnews.go.com/Technology/wireStory/china-ramp-internet-growth-controls-37420107",
+				"content": "#article-feed > article:nth-child(1) > div > div > div",
+				"date": "#article-feed > article:nth-child(1) > div > header > div > div > span",
+				"title": "#article-feed > article:nth-child(1) > div > header > h1"
+			}
+		]
+	},
+	"bbc": 
+	{
+		"name": "bbc.co.uk",
+		"parser": 
+		[
+			{
+				"url": "http://www.bbc.com/news/business-35739295",
+				"content": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > div.story-body__inner",
+				"date": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > div.story-body__mini-info-list-and-share > ul > li:nth-child(1) > div",
+				"title": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > h1"
+			}
+		]
+	},
+	"gbtimes": 
+	{
+		"name": "gbtimes",
+		"parser": 
+		[
+			{
+				"url": "http://gbtimes.com/business/china-confident-about-economy-despite-moodys-downgrade",
+				"content": "#node-273645 > div.node-content > div.field.field-name-body.field-type-text-with-summary.field-label-hidden.view-mode-full > div > div",
+				"date": "#node-273645 > div.node-content > div.info.vcard > div:nth-child(2) > time",
+				"title": "#page-title"
+			}
+		]
+	},
+	"china": 
+	{
+		"name": "",
+		"parser": 
+		[
+			{
+				"url": "china.org.cn",
+				"content": "#fontzoom",
+				"date": "#maintit > div",
+				"title": "#maintit > h1"
+			}
+		]
+	},
+	"dailymail": 
+	{
+		"name": "dailymail.co.uk",
+		"parser": 
+		[
+			{
+				"url": "http://www.dailymail.co.uk/wires/ap/article-3477805/The-Latest-Delegates-praise-Chinese-leaders-economic-plans.html",
+				"content": "#js-article-text > div:nth-child(1)",
+				"date": "#js-article-text > div:nth-child(1) > p.byline-section > span.article-timestamp.article-timestamp-published",
+				"title": "#js-article-text > div:nth-child(1) > h1"
+			}
+		]
+	},
+	"cbc": 
+	{
+		"name": "cbc.ca",
+		"parser": 
+		[
+			{
+				"url": "http://www.cbc.ca/news/world/china-military-spending-1.3475622",
+				"content": "body > div.page-body > div > div.content-body.story > div.wrap8.story-primary > div.wrap8.story-bodywrapper.sclt-storybody > div.story-body > div.story-content",
+				"date": "#content > div > p > span:nth-child(4)",
+				"title": "#content > div > div > h1"
+			}
+		]
+	},
+	"jeuxonline": 
+	{
+		"name": "jeuxonline.info",
+		"parser": 
+		[
+			{
+				"url": "http://www.jeuxonline.info/actualite/49969/major-shanghai-troisieme-jour-groupe-c-bilan-groupe-b",
+				"content": "#article-content > div > div > div > div > div > div > div.jol-layout-column-wrapper.col-sm-8.jol-layout-column-main > div > div > div.jol-module-wrapper.jol-news-widget-news.news.printable > section > div > div > div > div > article > div.jol-article-body",
+				"date": "#article-content > div > div > div > div > div > div > div.jol-layout-column-wrapper.col-sm-8.jol-layout-column-main > div > div > div.jol-module-wrapper.jol-news-widget-news.news.printable > section > div > div > div > div > article > div.jol-article-meta > span.jol-article-date > span",
+				"title": "#article-content > div > div > div > div > div > div > div.jol-layout-column-wrapper.col-sm-8.jol-layout-column-main > div > div > div.jol-module-wrapper.jol-news-widget-news.news.printable > section > div > div > div > div > article > div.jol-article-title > h1"
+			}
+		]
+	},
+	"telegraph": 
+	{
+		"name": "telegraph.uk",
+		"parser": 
+		[
+			{
+				"url": "http://www.telegraph.co.uk/news/worldnews/asia/china/12185000/Womans-body-found-in-China-lift-a-month-after-workers-switched-off-power.html",
+				"content": "#mainBodyArea",
+				"date": "#tmglBody > div.twoThirdsThird2.gutterUnder > div.twoThirds.gutter > div.oneHalf.gutter.artBodyWide > div.story > div.byline > p",
+				"title": "#tmglBody > div.twoThirdsThird2.gutterUnder > div.twoThirds.gutter > div.storyHead > h1"
+			}
+		]
+	},
+	"lexpress": 
+	{
+		"name": "lexpress.fr",
+		"parser": 
+		[
+			{
+				"url": "http://www.lexpress.fr/actualites/1/monde/honduras-des-milliers-de-personnes-a-l-enterrement-de-la-militante-ecologiste-assassinee_1770616.html",
+				"content": "#page > article > div > div.article_full_container > div.article_container",
+				"date": "#page > article > header > div > div.signature > time:nth-child(2)",
+				"title": "#page > article > header > div > h1"
+			}
+		]
+	},
+	"euronews": 
+	{
+		"name": "euronews.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.euronews.com/business-newswires/3161764-forever-blowing-bubbles-chinese-investors-pump-shanghai-property/",
+				"content": "#article-text",
+				"date": "#article-text > p.wireCet",
+				"title": "#player-new > div.col-p-lr-ds > h1 > a"
+			}
+		]
+	},
+	"phayul": 
+	{
+		"name": "phayul.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.phayul.com/news/article.aspx?id=37149",
+				"content": "#_ctl1_story",
+				"date": "#_ctl1_lblDate",
+				"title": "#_ctl1_lblHeading"
+			}
+		]
+	},
+	"thediplomat": 
+	{
+		"name": "thediplomat.com",
+		"parser": 
+		[
+			{
+				"url": "http://thediplomat.com/2016/02/chinas-isis-woes/",
+				"content": "#content_main > div.block.postView.postSection_6.clearFloat > article > div.postWrapper > div.postBody.ng-scope",
+				"date": "#content_main > div.block.postView.postSection_6.clearFloat > article > div.postWrapper > div.postBylineWrapper > div.postByline > div.postDate > span",
+				"title": "#content_main > div.block.postView.postSection_6.clearFloat > article > div.postWrapper > h1"
+			}
+		]
+	},
+	"marketwired": 
+	{
+		"name": "marketwired.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.marketwired.com/press-release/forbes-travel-guide-honors-the-ritz-carlton-guangzhou-in-2016-star-awards-2101986.htm",
+				"content": "#newsroom-copy > div.mw_release",
+				"date": "#news-date",
+				"title": "#newsroom-copy > h1"
+			}
+		]
+	},
+	"20min": 
+	{
+		"name": "20min.ch",
+		"parser": 
+		[
+			{
+				"url": "http://www.20min.ch/ro/news/faits_divers/story/Oubliee-dans-l-ascenseur--elle-meurt-de-faim-23178904",
+				"content": "#story_content > div.story_content.nolinks > div.story_text",
+				"date": "#story_content > div.story_head > div > div > p > span",
+				"title": "#story_content > div.story_head > div > h1 > span"
+			}
+		]
+	},
+	"lalibre": 
+	{
+		"name": "lalibre.be",
+		"parser": 
+		[
+			{
+				"url": "http://www.lalibre.be/dernieres-depeches/afp/chine-budget-militaire-2016-en-hausse-de-7-6-un-plus-bas-depuis-6-ans-chine-nouvelle-56da280e3570ebb7a8f6f393",
+				"content": "body > section > div:nth-child(3) > div > article > div.articleText",
+				"date": "body > section > div:nth-child(3) > div > article > header > p > span > time",
+				"title": "body > section > div:nth-child(3) > div > article > header > h1"
+			}
+		]
+	},
+	"moneycontrol": 
+	{
+		"name": "moneycontrol.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.moneycontrol.com/news/world-news/china-increases-defence-budget-by-76_5774121.html",
+				"content": "#mc_content > section > section > div.wbg > div > div.arti_cont",
+				"date": "#mc_content > section > section > div.wbg > div > p.arttidate.MT15",
+				"title": "#mc_content > section > section > div.wbg > div > h1"
+			}
+		]
+	},
+	"voanews": 
+	{
+		"name": "voanews.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.voanews.com/content/china-defense-budget-slows-as-economy-stumbles/3219375.html",
+				"content": "#ctl00_ctl00_cpAB_cp1_cbcContentBreak > div",
+				"date": "#article > div.articleContent > div.dateblock > p",
+				"title": "#article > h1"
+			}
+		]
+	},
+	"espnfc": 
+	{
+		"name": "espnfc.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.espnfc.com/afc-champions-league/story/2817805/guangzhou-jackson-martinez-ready-for-sydney-in-acl",
+				"content": "#article-view-2817805 > div.body.full",
+				"date": "#article-view-2817805 > div.meta.sharetools > div.publish-date",
+				"title": "#article-view-2817805 > h1"
+			}
+		]
+	},
+	"qz": 
+	{
+		"name": "qz.com",
+		"parser": 
+		[
+			{
+				"url": "http://qz.com/622508/chinas-top-grossing-film-of-all-time-is-about-mermaids-and-the-evils-of-human-development/",
+				"content": "#item-622508 > div.item-content > div.item-body",
+				"date": "#item-622508 > header > div > div.item-timestamp.item-meta-row > span",
+				"title": "#item-622508 > header > h1"
+			}
+		]
+	},
+	"investing": 
+	{
+		"name": "investing.com",
+		"parser": 
+		[
+			{
+				"url": "http://es.investing.com/news/economia/un-exasesor-de-li-keqiang,-nuevo-director-de-la-oficina-de-estad%C3%ADsticas-china-314975",
+				"content": "#leftColumn > div.arial_14.clear.WYSIWYG.newsPage",
+				"date": "#leftColumn > div.contentSectionDetails > span:nth-child(3)",
+				"title": "#leftColumn > h1"
+			}
+		]
+	},
+	"rfa": 
+	{
+		"name": "rfa.org",
+		"parser": 
+		[
+			{
+				"url": "http://www.rfa.org/english/news/china/china-bans-hong-kong-fim-awards-show-after-10-years-nominated-02232016113702.html",
+				"content": "#storytext",
+				"date": "#story_date",
+				"title": "#storypagemaincol > h1"
+			}
+		]
+	},
+	"bbc": 
+	{
+		"name": "bbc.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.bbc.com/russian/international/2016/03/160302_5floor_china_rating_down",
+				"content": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > div.story-body__inner",
+				"date": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > div.story-body__mini-info-list-and-share > ul > li > div",
+				"title": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > h1"
+			},
+			{
+				"url": "http://www.bbc.com/news/blogs-china-blog-35638005",
+				"content": "#comp-blog-story-content > div.story-body__inner",
+				"date": "#comp-blog-story-content > div.story-body__mini-info-list-and-share > ul > li > div",
+				"title": "#comp-blog-story-content > h2 > span"
+			},
+			{
+				"url": "http://www.bbc.com/news/business-35723392",
+				"content": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > div.story-body__inner",
+				"date": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > div.story-body__mini-info-list-and-share > ul > li:nth-child(1) > div",
+				"title": "#page > div:nth-child(2) > div.container > div > div.column--primary > div.story-body > h1"
+			}
+		]
+	},
+	"thestandard": 
+	{
+		"name": "thestandard.com.hk",
+		"parser": 
+		[
+			{
+				"url": "http://www.thestandard.com.hk/section-news.php?id=166915",
+				"content": "#content > div > div.ts-main > div > div.content",
+				"date": "#content > div > div.ts-main > div > div.heading.clearfix > span",
+				"title": "#content > div > div.ts-main > div > div.heading.clearfix > h1"
+			}
+		]
+	},
+	"focustaiwan": 
+	{
+		"name": "focustaiwan.tw",
+		"parser": 
+		[
+			{
+				"url": "http://focustaiwan.tw/news/aeco/201603040005.aspx",
+				"content": "#cphdefault_cphcontent_NewsView_PnlCont > div.box_2 > p",
+				"date": "#primary > div.news_content > div.date",
+				"title": "#primary > div.news_content > h1"
+			}
+		]
+	},
+	"forbes": 
+	{
+		"name": "forbes.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.forbes.com/sites/russellflannery/2016/03/07/lenovos-ceo-among-chinas-world-leading-42-dropoffs-on-new-forbes-billionaires-list/#8faf1ba21875",
+				"content": "#article-container-0 > div.article-text",
+				"date": "#article-container-0 > div > div > header > small > time",
+				"title": "#article-container-0 > div > div > header > h1"
+			}
+		]
+	},
+	"business-standard": 
+	{
+		"name": "business-standard.com",
+		"parser": 
+		[
+			{
+				"url": "http://www.business-standard.com/article/news-ians/china-defence-budget-to-rise-by-7-to-8-percent-116030400455_1.html",
+				"content": "#hpcontentbox > div.row-panel > div.main-cont-left.topB > div > div.story-content > span",
+				"date": "#hpcontentbox > div.row-panel > div.main-cont-left.topB > div > div.story-head.pB0 > div.last-update.mT10 > p > span:nth-child(3)",
+				"title": "#hpcontentbox > div.row-panel > div.main-cont-left.topB > div > div.story-head.pB0 > div:nth-child(1) > h1"
+			}
+		]
+	},
+	"shanghaidaily": 
+	{
+		"name": "上海日报",
+		"parser": 
+		[
+			{
+				"url": "http://www.shanghaidaily.com/national/China-sets-fiveyear-average-annual-growth-above-65/shdaily.shtml",
+				"content": "detail_content_html",
+				"date": "#main_container > div:nth-child(6) > div:nth-child(2) > div.detail_byline.border_bottom",
+				"title": "#main_container > div:nth-child(6) > div:nth-child(2) > h2"
+			}
+		]
+	},
+	"scmp": 
+	{
+		"name": "南华早报",
+		"parser": 
+		[
+			{
+				"url": "http://www.scmp.com/news/china/diplomacy-defence/article/1921769/pla-officers-make-rare-public-show-disappointment",
+				"content": "#content-main > div.panel-panel.panel-col-left > div > div.panel-pane.pane-entity-field.pane-node-body.pos-1 > div > div > div > div",
+				"date": "#content-top > div > div.panel-pane.pane-node-created.pos-7 > div > div.node-published",
+				"title": "#page-title"
+			}
+		]
+	},
+	"yonhapnews": 
+	{
+		"name": "韩联社",
+		"parser": 
+		[
+			{
+				"url": "http://www.yonhapnews.co.kr/bulletin/2016/03/02/0200000000AKR20160302089800009.HTML",
+				"content": "#articleWrap > div.article",
+				"date": "#articleWrap > div.article-sns-md.sns-md03 > div.share-info > span > em",
+				"title": "#articleWrap > h1"
+			}
+		]
+	},
+	"chinanews": 
+	{
+		"name": "中国新闻网",
+		"parser": 
+		[
+			{
+				"url": "http://www.chinanews.com/cul/2015/04-18/7216975.shtml",
+				"content": "#cont_1_1_2 > div.left_zw",
+				"date": "#cont_1_1_2 > div.left-time > div.left-t",
+				"title": "#cont_1_1_2 > h1"
+			},
+			{
+				"url": "http://www.chinanews.com/ty/2015/04-19/7217874.shtml",
+				"content": "#cont_1_1_2",
+				"date": "#cont_1_1_2 > div.left-time > div.left-t",
+				"title": "#cont_1_1_2 > h1"
+			},
+			{
+				"url": "http://www.bj.chinanews.com/news/2015/0419/44839.html",
+				"content": "div.branch_con_text",
+				"date": "div.branch_con_title > span",
+				"title": "div.branch_con_title > h1"
+			}
+		]
+	},
+	"chinadaily": 
+	{
+		"name": "中国日报",
+		"parser": 
+		[
+			{
+				"url": "http://www.chinadaily.com.cn/micro-reading/dzh/2015-04-18/content_13564301.html",
+				"content": "#Zoom",
+				"date": "#pubtime_baidu",
+				"title": "h1"
+			},
+			{
+				"url": "http://www.chinadaily.com.cn/hqgj/jryw/2015-05-07/content_13661070.html",
+				"content": "div.arcBox",
+				"date": "div.arcform",
+				"title": "div.tim"
+			}
+		]
+	}
+}
