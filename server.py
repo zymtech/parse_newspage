@@ -7,6 +7,7 @@ from parserservicelog import *
 
 
 class parserHandler(tornado.web.RequestHandler):
+    """inherit RequestHandler from tornado.web, override get method"""
     def get(self):
         try:
             self.write("not available yet")
