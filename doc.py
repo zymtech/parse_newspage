@@ -13,6 +13,7 @@ except ImportError:
 import lxml.html
 import lxml.etree
 
+
 def doc(html,url):
     """Returns a PyQuery object of a request's content"""
     parser = lxml.html.HTMLParser(encoding='utf-8')

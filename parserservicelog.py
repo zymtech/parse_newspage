@@ -5,6 +5,7 @@ import tldextract
 import datetime
 from getsafedictvalue import getsafedictvalue
 
+
 class psdblogger():
     """ dblogger of parser service"""
     def __init__(self,host='127.0.0.1',port=27001):

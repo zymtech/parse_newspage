@@ -2,6 +2,7 @@ import json
 import requests
 import ast
 
+
 class serviceparser:
     """serviceparser implemented in Python"""
     __serviceurl = 'http://127.0.0.1:27023/parser/'

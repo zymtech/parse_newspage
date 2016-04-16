@@ -16,7 +16,6 @@ from getsafedictvalue import getsafedictvalue
 from newspaper import *
 
 
-
 class cx_extractor:
     """cx_extractor implemented in Python"""
 
