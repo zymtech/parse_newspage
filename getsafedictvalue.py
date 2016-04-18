@@ -1,4 +1,4 @@
-def getsafedictvalue(dict,pathval,defval):
+def getsafedictvalue(dict, pathval, defval):
     childs = pathval.split("/")
     childdict = dict
     try:
